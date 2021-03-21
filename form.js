@@ -19,7 +19,7 @@ function validateEmail() {
     return( true );
  }
  
-const togglePassword = document.querySelector('#togglePassword');
+/*const togglePassword = document.querySelector('#togglePassword');
 const password = document.querySelector('#password');
 
 togglePassword.addEventListener('click', function (e) {
@@ -28,8 +28,8 @@ togglePassword.addEventListener('click', function (e) {
     password.setAttribute('type', type);
     // toggle the eye slash icon
     this.classList.toggle('fa-eye-slash');
-});
- /*function showPwd(id, el) {
+});*/
+ function showPwd(id, el) {
     let x = document.getElementById(id);
     if (x.type === "password") {
       x.type = "text";

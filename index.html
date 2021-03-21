@@ -15,14 +15,12 @@
     <title>Account Creation Form</title>
   </head>
   <body>
-    <div class="signup-form">
+    <div class="signup-form col-12">
       <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
            <h2>Create Account</h2>
            <p>It's free and hardly takes more than 30 seconds.</p>
            <div class="mb-3">
-               
                 <i class="fa fa-user icon"></i> 
-               
               <input name="fname" type="text" class="form-control" id="formGroupExampleInput" placeholder="Username">
            </div>
            <div class="mb-3">
@@ -31,20 +29,20 @@
            </div>
            <div class="mb-3">
               <i class="fa fa-lock icon"></i> 
-              <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Password">
-              <i class="fa fa-eye showpwd" onClick="showPwd('passwd', this)" id="togglePassword"></i>
+              <input type="password" class="form-control" id="formGroupExampleInput3" placeholder="Password">
+              <i class="fa fa-eye showpwd" onClick="showPwd(id, el)" id="togglePassword"></i>
            </div>
            <div class="mb-3">
               <i class="fa fa-lock icon"></i> 
-              <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Confirm Password">
+              <input type="password" class="form-control" id="formGroupExampleInput4" placeholder="Confirm Password">
            </div>
            <div class="clearfix">
               <button type="submit" class="signupbtn">Sign Up</button>
            </div>
-       </form>
+      </form>
        <br>
-       By clicking the Sign Up button, you agree to our <a href="">Terms and Conditions</a>, and 
-           <a href="">Privacy Policy</a>.
+       By clicking the Sign Up button, you agree to our <a href="#">Terms and Conditions</a>, and 
+           <a href="#">Privacy Policy</a>.
     </div>
 
 
